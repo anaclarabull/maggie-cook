@@ -6,7 +6,7 @@
         <img src="./assets/logo.svg" alt="Logo Maggie the Cook" class="h-24">
       </router-link>
       <div>
-        <router-link to="/">
+        <router-link to="/" class="shadow bg-yellow-200 hover:bg-yellow-500 rounded-full p-2 font-bold text-amber-900 hover:text-white">
           Categorias
         </router-link>
       </div>

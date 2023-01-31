@@ -1,7 +1,38 @@
-# Vue 3 + Vite
+<h1 align="center">Maggie the Cook</h1>
+<h2> Descrição do Projeto</h2>
+<p>Site de receitas feitas por Maggie.</p>
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+### 🎨 Protótipo
 
-## Recommended IDE Setup
+- [Figma](https://www.figma.com/file/MdvndxJlc2JUc43qJeC5Ta/Maggie?node-id=0%3A1&t=gtSqBZm8CvGHwAzo-1)
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+### 💻 Tecnologias
+
+- [Vue.js](https://vuejs.org/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Axios](https://www.npmjs.com/package/axios)
+
+
+### 🎲 Run
+
+```bash
+# Clone este repositório
+$ git clone <https://github.com/anaclarabull/maggie-cook.git>
+
+# Instale as dependências no terminal
+$ npm install
+
+# Execute a aplicação em modo de desenvolvimento
+$ npm run dev
+```
+
+### 👨‍🚀 Desenvolvedora #MeContrata ✨💙
+---
+
+<a href="https://github.com/anaclarabull">
+ <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/89466535?v=4" width="100px;" alt=""/>
+ <br />
+ <sub><b>Ana Clara Mendes Bull</b></sub></a>
+
+[![Linkedin Badge](https://img.shields.io/badge/-Ana-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/ana-clara-mendes-bull-64649a149/)](https://www.linkedin.com/in/ana-clara-mendes-bull-64649a149/) 

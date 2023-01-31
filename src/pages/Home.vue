@@ -2,9 +2,7 @@
     <div class="flex flex-col p-8">
 
         <div>
-            <input type="text"
-                class="rounded-full border-2 border-yellow-200 focus:outline-none focus:border-yellow-300 focus:ring-1 focus:ring-yellow-300 w-full"
-                placeholder="Encontre sua receita...">
+            
         </div>
 
         <div class="flex justify-center gap-2 mt-2">

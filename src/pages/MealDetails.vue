@@ -1,17 +1,13 @@
 <template>
     <div class="max-w-[800px] mx-auto p-8">
         <img :src="meal.strMealThumb" :alt="meal.strMeal" class="w-full object-cover rounded-full">
-
         <h1 class="text-4xl font-bold mb-5 text-amber-900 pt-4">{{ meal.strMeal }}</h1>
-       
         <div class="my-3">
             {{ meal.strInstructions }}
         </div>
-
         <div class="text-lg py-2">
             <strong class="font-bold">Categoria:</strong> {{ meal.strCategory }}
         </div>
-
         <div class="grid grid-cols-1 sm:grid-cols-2 py-2">
             <div>
                 <h2 class="text-2xl font-semibold mb-2">Igredientes</h2>

@@ -2,7 +2,7 @@
     <div class="flex flex-col p-8">
         <input type="text" v-model="keyword"
             class="rounded-full border-2 border-yellow-200 focus:outline-none focus:border-yellow-300 focus:ring-1 focus:ring-yellow-300 w-full"
-            placeholder="Encontre sua receita..." @change="filterMeals" />
+            placeholder="Encontre sua receita..." @change="searchMeals" />
     </div>
 
     <div class="grid grid-cols-1 md:grid-cols-4 gap-8 p-10">
@@ -31,11 +31,11 @@ import store from '../store';
 
 const route = useRoute();
 const keyword = ref('');
-const meals = computed(() => store.state.filteredMeals);
+const meals = computed(() => store.state.searchedMeals);
 
 
-function filterMeals() {
-    store.dispatch('filterMeals', keyword.value)
+function searchMeals() {
+    store.dispatch('searchMeals', keyword.value)
 }
 
 onMounted(() => {

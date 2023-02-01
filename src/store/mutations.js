@@ -1,3 +1,3 @@
-export function setFilteredMeals(state, meals) {
-    state.filteredMeals = meals
+export function setSearchedMeals(state, meals) {
+    state.searchedMeals = meals
 }

@@ -3,6 +3,7 @@ import Default from '../components/Default.vue';
 import Home from '../pages/Home.vue';
 import FilterByCategory from '../pages/FilterByCategory.vue';
 import FilterByName from '../pages/FilterByName.vue';
+import MealDetails from '../pages/MealDetails.vue';
 
 const routes = [
     {
@@ -10,23 +11,28 @@ const routes = [
         component: Default,
         children: [
             {
-        path: '/',
-        name: 'home',
-        component: Home,
-    },
-    {
-        path: '/category/:category?',
-        name: 'category',
-        component: FilterByCategory,
-    },
-    {
-        path: '/name/:name?',
-        name: 'name',
-        component: FilterByName,
-    }
+                path: '/',
+                name: 'home',
+                component: Home,
+            },
+            {
+                path: '/category/:category?',
+                name: 'category',
+                component: FilterByCategory,
+            },
+            {
+                path: '/name/:name?',
+                name: 'name',
+                component: FilterByName,
+            },
+            {
+                path: '/meal/:id',
+                name: 'mealDetails',
+                component: MealDetails,
+            }
         ]
     },
-    
+
 ];
 
 const router = createRouter({

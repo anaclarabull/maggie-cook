@@ -13,6 +13,10 @@
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Axios](https://www.npmjs.com/package/axios)
 
+### ⌨️ API
+
+- [The Meal DB](https://www.themealdb.com/api.php)
+
 
 ### 🎲 Run
 

@@ -4,7 +4,6 @@
             class="rounded-full border-2 border-yellow-200 focus:outline-none focus:border-yellow-300 focus:ring-1 focus:ring-yellow-300 w-full"
             placeholder="Encontre sua receita..." @change="searchMeals" />
     </div>
-
     <div class="grid grid-cols-1 md:grid-cols-4 gap-8 p-10">
         <MealItem v-for="meal of meals" :key="meal.idMeal" :meal="meal"/>
     </div>

@@ -1,6 +1,6 @@
 
 <template>
-    <div class="p-8">
+    <div class="flex flex-col p-8">
         <Meals :meals="meals" />
     </div>
 </template>

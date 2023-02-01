@@ -27,6 +27,12 @@ $ git clone <https://github.com/anaclarabull/maggie-cook.git>
 # Instale as dependências no terminal
 $ npm install
 
+# Copie o conteúdo do arquivo
+$ .env.example
+
+# Cole no arquivo
+$ .env
+
 # Execute a aplicação em modo de desenvolvimento
 $ npm run dev
 ```

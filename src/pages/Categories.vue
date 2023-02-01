@@ -1,5 +1,4 @@
 <template>
-    
     <div class="flex flex-col p-8">
       <input
         type="text"
@@ -8,11 +7,11 @@
         placeholder="Procurar por Categorias..."
       />
 
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8 p-10">
         <a href="#"
           @click.prevent="openCategory(category)"
           v-for="category of computedCategories"
-          :key="category.idCategory"
+          :key="category.srtCategory"
           class="block bg-white rounded p-3 mb-3 shadow"
         >
           <h3 class="text-2xl font-bold mb-2">{{ category.strCategory }}</h3>
@@ -27,6 +26,7 @@
   import { useRouter } from "vue-router";
   import axiosClient from "../axiosClient";
   import store from "../store";
+
   const router = useRouter();
   const keyword = ref("");
   const categories = ref([]);
@@ -36,10 +36,11 @@
       c.strCategory.toLowerCase().includes(keyword.value.toLowerCase())
     );
   });
+  
   function openCategory(category) {
     store.commit('setCategory', category)
     router.push({
-      name: "byCategory",
+      name: "category",
       params: { category: category.strCategory },
     });
   }

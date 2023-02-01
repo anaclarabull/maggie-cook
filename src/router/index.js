@@ -4,6 +4,7 @@ import Home from '../pages/Home.vue';
 import FilterByCategory from '../pages/FilterByCategory.vue';
 import FilterByName from '../pages/FilterByName.vue';
 import MealDetails from '../pages/MealDetails.vue';
+import Categories from '../pages/Categories.vue'
 
 const routes = [
     {
@@ -14,6 +15,11 @@ const routes = [
                 path: '/',
                 name: 'home',
                 component: Home,
+            },
+            {
+                path: '/categories',
+                name: 'categories',
+                component: Categories,
             },
             {
                 path: '/category/:category?',
